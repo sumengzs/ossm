@@ -1,0 +1,9 @@
+apiVersion: oss.sumengzs.com/v1beta1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/name: ossm
+    app.kubernetes.io/managed-by: kustomize
+  name: service-sample
+spec:
+  # TODO(user): Add fields here
